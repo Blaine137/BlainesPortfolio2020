@@ -1,0 +1,58 @@
+/*animation for desktop*/
+
+@keyframes leftIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-5rem); }
+  80% {
+    transform: translateX(0.5rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); }
+}
+
+.leftIn{
+  animation-name: leftIn;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.25s;
+}
+
+@keyframes rightIn {
+  0% {
+    opacity: 0;
+    transform: translateX(5rem); }
+  80% {
+    transform: translateX(-0.5rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); }
+}
+
+.rightIn{
+  animation-name: rightIn;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.25s;
+}
+
+@keyframes bottomIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-5rem); }
+  80% {
+    transform: translateY(0.5rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); }
+}
+
+.bottomIn{
+  animation-name: bottomIn;
+  animation-fill-mode: forwards;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-delay: 0.25s;
+}

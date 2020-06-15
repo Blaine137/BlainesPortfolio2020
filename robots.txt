@@ -1,0 +1,4 @@
+User-agent: * 
+Disallow: /projects/
+Noindex: /projects/
+Sitemap: https://blaineyoung.tech/sitemap.xml

@@ -1,0 +1,5 @@
+Email and phone number on footer of page
+
+php mail
+	point to correct mailing server
+	forward mail or setup email account
