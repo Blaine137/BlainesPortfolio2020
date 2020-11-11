@@ -230,6 +230,12 @@ body{
 
 }
 
+.projectLink{
+  color: #308E9A;
+  text-align: center;
+  padding: 0 .2rem 0 .2rem;
+}
+
 footer {
     background-color: #308E9A;
     min-height: 10vh;
