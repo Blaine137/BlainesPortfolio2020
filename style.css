@@ -236,6 +236,10 @@ body{
   padding: 0 .2rem 0 .2rem;
 }
 
+.projectLink:hover{
+  transform: scale(1);
+}
+
 footer {
     background-color: #308E9A;
     min-height: 10vh;
