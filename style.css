@@ -5,6 +5,7 @@ html{
   -o-font-family: 'Concert One', cursive;
   -webkit-font-family: 'Concert One', cursive;
   -ms-font-family: 'Concert One', cursive;
+  scroll-behavior: smooth;
 }
 
 h4, p{
@@ -17,7 +18,6 @@ body{
     overflow-x: hidden;
     background-color: #FCC44B;
     position: relative;
-
 }
 
 #header {
