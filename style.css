@@ -21,11 +21,11 @@ body{
 }
 
 #header {
-    background: url(images/bg1.gif); /*old gif is giphy.gif*/
-    -webkit-background: url(images/bg1.gif); /*old gif is giphy.gif*/
-    -moz-background: url(images/bg1.gif); /*old gif is giphy.gif*/
-    -ms-background: url(images/bg1.gif); /*old gif is giphy.gif*/
-    -o-background: url(images/bg1.gif); /*old gif is giphy.gif*/
+    background: url(images/bgvideo.webp); /*old gif is giphy.gif*/
+    -webkit-background: url(images/bgvideo.webp); /*old gif is giphy.gif*/
+    -moz-background: url(images/bgvideo.webp); /*old gif is giphy.gif*/
+    -ms-background: url(images/bgvideo.webp); /*old gif is giphy.gif*/
+    -o-background: url(images/bgvideo.webp); /*old gif is giphy.gif*/
     -webkit-background-size: cover; /*was not here before new gif*/
     -o-background-size: cover; /*was not here before new gif*/
     -ms-background-size: cover; /*was not here before new gif*/
