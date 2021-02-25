@@ -1,33 +1,15 @@
-  //on load animations
-window.addEventListener('load', function(){
-
-  var h1title = document.getElementById("header1");
-  var phrase = document.getElementById("catchPhrase");
-  var button = document.getElementById("actionBTN");
-
-  h1title.classList.add('leftIn');
-  phrase.classList.add('rightIn');
-  button.classList.add('bottomIn');
-
-
-});
-
 const options = {
   threshold: 0,
   rootMargin: "0px 0px 0px 0px"
 };
 
 const imgs = document.querySelectorAll("[data-src]");
-
 const fades = document.querySelectorAll(".animatefade");
-
 const lefts = document.querySelectorAll(".animateleft");
-
 const rights = document.querySelectorAll(".animateright");
-
 const client = document.querySelector(".animatebottom");
-
 const server = document.querySelector(".animatetop");
+const header = document.querySelectorAll(".animateHeader");
 
 const Observer = new IntersectionObserver((entries, Observer) => {
 
@@ -56,6 +38,17 @@ const Observer = new IntersectionObserver((entries, Observer) => {
     }else if(entry.target.classList.contains('animatetop')){
       entry.target.classList.add('topIn');
       Observer.unobserve(entry.target);
+    }else if(entry.target.classList.contains('animateHeader')){
+      if(entry.target.nodeName === 'H1'){
+        entry.target.classList.add("leftIn");
+        Observer.unobserve(entry.target);
+      }else if(entry.target.nodeName === 'H4'){
+        entry.target.classList.add("rightIn");
+        Observer.unobserve(entry.target);
+      }else if(entry.target.nodeName === 'A'){
+        entry.target.classList.add("bottomIn");
+        Observer.unobserve(entry.target);
+      }
     }
 
   });
@@ -76,6 +69,10 @@ lefts.forEach(left => {
 
 rights.forEach(right => {
   Observer.observe(right);
+});
+
+header.forEach(headerElement => {
+  Observer.observe(headerElement);
 });
 
 Observer.observe(client);
