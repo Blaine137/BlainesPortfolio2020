@@ -39,11 +39,6 @@ body{
     -ms-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
     -o-clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10vw), 0 100%);
     margin-bottom: -28vw;
-    /*background-attachment: fixed;
-    -webkit-background-attachment: fixed;
-    -moz-background-attachment: fixed;
-    -ms-background-attachment: fixed;
-    -o-background-attachment: fixed;*/
 }
 
 .position{
@@ -121,7 +116,6 @@ body{
 #sectiontwo #left p, #sectiontwo #right p{
     font-size: 1.2em;
     margin: 4% 5% 4% 5%;
-    /*! color: black; */
     line-height: 200%;
     text-align: left;
 }
@@ -252,7 +246,6 @@ footer {
 
 footer span {
     width:100%;
-    /*! background-color: #FCC44B; */
     text-align:center;
     display: block;
 }
@@ -425,24 +418,11 @@ footer .mailme {
   }
 }
 
-
-/*@media (min-width:630px){
-    footer .mailme{
-        height: 160px;
-    }
-}*/
-
 @media (min-width:660px){
   #header h4{
     font-size: 1.5em;
   }
 }
-
-/*@media (min-width:664px){
-    footer .mailme{
-        height: 170px;
-    }
-}*/
 
 @media (min-width:787px){
 
@@ -521,13 +501,11 @@ footer .mailme {
 
     #container {
         margin: 5px;
-        /*! background-color: #FCC44B; */
     }
 
     #container #sectiontwo {
         padding-bottom: 16%;
         margin-bottom: -10vw;
-        /*! padding-top: 10%; */
     }
 
 }
