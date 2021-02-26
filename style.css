@@ -101,7 +101,6 @@ body{
 #sectiontwo h2 {
     font-size: 2.5em;
     padding-top: 4%;
-    display: inline-block;
     color: #308E9A;
 }
 
@@ -150,6 +149,8 @@ body{
     text-align: center;
     color: black;
     font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 #languages #frontend ul li {
@@ -171,6 +172,8 @@ body{
    text-align: center;
    color: black;
    font-size:2em;
+   margin-top: 0;
+   margin-bottom: 0;
 }
 
 #languages #backend ul li {
@@ -358,10 +361,6 @@ footer .mailme {
         font-size:3em;
     }
 
-    #sectiontwo #left h4, #sectiontwo #right h4{
-        /*font-size:2.5em;*/
-    }
-
     #sectiontwo #left p, #sectiontwo #right p{
         font-size:1.5em;
     }
@@ -383,8 +382,6 @@ footer .mailme {
 
     #languages #frontend h4, #languages #backend h4 {
         font-size: 2em;
-        margin-top: 0;
-        margin-bottom: 0;
     }
 
     #languages #frontend ul,#languages #backend ul{
@@ -533,7 +530,7 @@ footer .mailme {
     #projects .grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 4em;
+        grid-gap: 2rem;
     }
 
     footer img {
@@ -558,14 +555,12 @@ footer .mailme {
 
     #header a{
         position: relative;
-
         z-index: 1;
     }
 
     #header a:active {
         border: none;
         padding: 1%;
-
     }
 
     #header a::after{
