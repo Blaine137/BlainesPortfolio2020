@@ -12,7 +12,6 @@ h4, p{
   font-family: 'Space Mono', monospace;
 }
 
-
 body{
     margin: 0;
     overflow-x: hidden;
@@ -103,7 +102,6 @@ body{
     padding-top: 4%;
     color: #308E9A;
 }
-
 
 #sectiontwo #left h4, #sectiontwo #right h4{
     font-size: 1.5em;
@@ -290,42 +288,40 @@ footer .mailme {
 }
 
 @media (min-width:389px) {
+  #header{
+      margin-bottom: -24vw;
+  }
 
-    #header{
-        margin-bottom: -24vw;
-    }
+  #header h1{
+      font-size: 3.5em;
+      padding-top: 2%;
+  }
 
-    #header h1{
-        font-size: 3.5em;
-        padding-top: 2%;
-    }
+  #sectiontwo h2{
+      font-size: 3em;
+  }
 
-    #sectiontwo h2{
-        font-size: 3em;
-    }
+  #sectiontwo #left h4, #sectiontwo #right h4{
+      font-size: 2em;
+      /*! color: #FCC44B; */
+  }
 
-    #sectiontwo #left h4, #sectiontwo #right h4{
-        font-size: 2em;
-        /*! color: #FCC44B; */
-    }
+  #languages #frontend h4,#languages #backend h4{
+      font-size: 1.5em;
+  }
 
-    #languages #frontend h4,#languages #backend h4{
-        font-size: 1.5em;
-    }
+  footer span{
+      font-size: 1.5em;
+  }
 
-    footer span{
-        font-size: 1.5em;
-    }
+  footer span a img{
+    width: 94px;
+    height: 85px;
+  }
 
-    footer span a img{
-      width: 94px;
+  footer .mailme{
       height: 85px;
-    }
-
-    footer .mailme{
-        height: 85px;
-    }
-
+  }
 }
 
 
@@ -337,76 +333,70 @@ footer .mailme {
 }
 
 @media (min-width:502px){
-
   #header a{
     width: 35%;
   }
-
 }
 
 @media (min-width:575px){
-
   #languages #frontend, #languages #backend{
     margin: 1rem;
   }
-
 }
 
 @media (min-width:598px){
-    #header h1{
-        font-size:3.5em;
-    }
+  #header h1{
+      font-size:3.5em;
+  }
 
-    #sectiontwo h2{
-        font-size:3em;
-    }
+  #sectiontwo h2{
+      font-size:3em;
+  }
 
-    #sectiontwo #left p, #sectiontwo #right p{
-        font-size:1.5em;
-    }
+  #sectiontwo #left p, #sectiontwo #right p{
+      font-size:1.5em;
+  }
 
-    #languages{
-        padding: 15% 10% 15% 10%;
-    }
+  #languages{
+      padding: 15% 10% 15% 10%;
+  }
 
-    #languages .grid {
-        display: grid;
-        grid-template-columns: 3fr 3fr;
-    }
+  #languages .grid {
+      display: grid;
+      grid-template-columns: 3fr 3fr;
+  }
 
-    #languages #frontend, #languages #backend {
-        border: solid #308E9A 2px;
-        text-align:center;
-        margin: 0 auto;
-    }
+  #languages #frontend, #languages #backend {
+      border: solid #308E9A 2px;
+      text-align:center;
+      margin: 0 auto;
+  }
 
-    #languages #frontend h4, #languages #backend h4 {
-        font-size: 2em;
-    }
+  #languages #frontend h4, #languages #backend h4 {
+      font-size: 2em;
+  }
 
-    #languages #frontend ul,#languages #backend ul{
-        font-size: 1.2em;
-        padding-bottom: 10%;
+  #languages #frontend ul,#languages #backend ul{
+      font-size: 1.2em;
+      padding-bottom: 10%;
+  }
 
-    }
+  #projects h3{
+      font-size: 3em;
+  }
 
-    #projects h3{
-        font-size: 3em;
-    }
+  #projects .right span{
+      font-size:2em;
 
-    #projects .right span{
-        font-size:2em;
+  }
 
-    }
+  #projects .right p{
+      font-size:1.5em;
+  }
 
-    #projects .right p{
-        font-size:1.5em;
-    }
-
-    footer img {
-        max-height: 95px;
-    }
-
+  footer img {
+      max-height: 95px;
+  }
 }
 
 @media (min-width:616px){
@@ -422,39 +412,31 @@ footer .mailme {
 }
 
 @media (min-width:787px){
-
   footer img{
     max-height: 110px;
   }
-
 }
 
 @media (min-width:838px){
   #header h4{
-
     width: 100%;
   }
 }
 
 @media (min-width:850px){
-
   #header a{
     width: 25%;
   }
-
 }
 
 @media (min-width:968px){
-
   #header a{
     width: 20%;
-
   }
 
   footer img{
     max-height: 120px;
   }
-
 }
 
 /*fixes look on mobile google chrome*/
@@ -469,7 +451,6 @@ footer .mailme {
 }
 
 @media (min-width:1068px){
-
   footer img{
     max-height: 130px;
   }
@@ -487,222 +468,209 @@ footer .mailme {
 }
 
 @media (min-width:1184px){
-
   #sectiontwo #left, #sectiontwo #right{
     margin-top: 5rem;
   }
-
 }
 
 @media (min-width:1187px){
+  #container {
+      margin: 5px;
+  }
 
-    #container {
-        margin: 5px;
-    }
-
-    #container #sectiontwo {
-        padding-bottom: 16%;
-        margin-bottom: -10vw;
-    }
-
+  #container #sectiontwo {
+      padding-bottom: 16%;
+      margin-bottom: -10vw;
+  }
 }
 
 @media (min-width:1201px) {
+  #header {
+      margin-bottom: -18vw;
+  }
 
-    #header {
-        margin-bottom: -18vw;
-    }
+  #sectiontwo .grd_cont {
+      display: grid;
+      grid-template-columns: 3fr 3fr;
+  }
 
-    #sectiontwo .grd_cont {
-        display: grid;
-        grid-template-columns: 3fr 3fr;
-    }
+  #sectiontwo h2 {
+      margin-top: 0;
+  }
 
-    #sectiontwo h2 {
-        margin-top: 0;
-    }
+  #projects{
+      padding-bottom: 10%;
+      padding-top: 10%;
+  }
 
-    #projects{
-        padding-bottom: 10%;
-        padding-top: 10%;
-    }
+  #projects .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 2rem;
+  }
 
-    #projects .grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-gap: 2rem;
-    }
-
-    footer img {
-        max-height: 150px;
-        width: auto;
-    }
+  footer img {
+      max-height: 150px;
+      width: auto;
+  }
 }
 
 @media (min-width:1394px){
-
   #header a{
     width: 15%;
   }
-
 }
 
 @media (min-width:1500px){
+  html{
+    cursor: default;
+  }
 
-    html{
-      cursor: default;
-    }
+  #header a{
+      position: relative;
+      z-index: 1;
+  }
 
-    #header a{
-        position: relative;
-        z-index: 1;
-    }
+  #header a:active {
+      border: none;
+      padding: 1%;
+  }
 
-    #header a:active {
-        border: none;
-        padding: 1%;
-    }
+  #header a::after{
+    content: '';
+    background-color: #00a9a5;
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    border-radius: 7rem;
+    z-index: -1;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    -moz-transform: scale(0);
+    transform-origin: center;
+    -webkit-transform-origin: center;
+    -o-transform-origin: center;
+    -moz-transform-origin: center;
+    -ms-transform-origin: center;
+    transition: transform 0.6s ease-in;
+    -webkit-transition: transform 0.6s ease-in;
+    -o-transition: transform 0.6s ease-in;
+    -ms-transition: transform 0.6s ease-in;
+    -moz-transition: transform 0.6s ease-in;
+  }
 
-    #header a::after{
-      content: '';
-      background-color: #00a9a5;
-      position: absolute;
-      top: 0;
-      left:0;
-      height: 100%;
-      width: 100%;
-      border-radius: 7rem;
-      z-index: -1;
-      transform: scale(0);
-      -webkit-transform: scale(0);
-      -ms-transform: scale(0);
-      -o-transform: scale(0);
-      -moz-transform: scale(0);
-      transform-origin: center;
-      -webkit-transform-origin: center;
-      -o-transform-origin: center;
-      -moz-transform-origin: center;
-      -ms-transform-origin: center;
-      transition: transform 0.6s ease-in;
-      -webkit-transition: transform 0.6s ease-in;
-      -o-transition: transform 0.6s ease-in;
-      -ms-transition: transform 0.6s ease-in;
-      -moz-transition: transform 0.6s ease-in;
-    }
+  #header a:hover::after{
+    content: '';
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+  }
 
-    #header a:hover::after{
-      content: '';
-      transform: scale(1);
-      -webkit-transform: scale(1);
-      -o-transform: scale(1);
-      -ms-transform: scale(1);
-      -moz-transform: scale(1);
-    }
+  #header h1{
+      font-size: 4em;
+  }
 
+  #languages #frontend, #languages #backend{
+      position: relative;
+      max-width:40%;
+      z-index: 1;
+  }
 
-    #header h1{
-        font-size: 4em;
-    }
+  #languages #frontend::after{
+    content: '';
+    background-color: #00a9a5;
+    position: absolute;
+    top: 0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    -moz-transform: scale(0);
+    transform-origin: center;
+    -webkit-transform-origin: center;
+    -o-transform-origin: center;
+    -ms-transform-origin: center;
+    -moz-transform-origin: center;
+    transition: transform 0.5s ease-in;
+    -webkit-transition: transform 0.5s ease-in;
+    -o-transition: transform 0.5s ease-in;
+    -ms-transition: transform 0.5s ease-in;
+    -moz-transition: transform 0.5s ease-in;
+    padding-right: .1rem;
+    padding-bottom: .1rem;
+  }
 
-    #languages #frontend, #languages #backend{
-        position: relative;
-        max-width:40%;
-        z-index: 1;
+  #languages #frontend:hover::after{
+    content: '';
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+  }
 
-    }
+  #languages #backend::after{
+    content: '';
+    background-color: #00a9a5;
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    transform: scale(0);
+    -webkit-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    -moz-transform: scale(0);
+    transform-origin: center;
+    -webkit-transform-origin: center;
+    -o-transform-origin: center;
+    -ms-transform-origin: center;
+    -moz-transform-origin: center;
+    transition: transform 0.5s ease-in;
+    -webkit-transition: transform 0.5s ease-in;
+    -o-transition: transform 0.5s ease-in;
+    -ms-transition: transform 0.5s ease-in;
+    -moz-transition: transform 0.5s ease-in;
+    padding-right: .1rem;
+    padding-bottom: .1rem;
+  }
 
-    #languages #frontend::after{
-      content: '';
-      background-color: #00a9a5;
-      position: absolute;
-      top: 0;
-      left:0;
-      bottom: 0;
-      right: 0;
-      height: 100%;
-      width: 100%;
-      z-index: -1;
-      transform: scale(0);
-      -webkit-transform: scale(0);
-      -o-transform: scale(0);
-      -ms-transform: scale(0);
-      -moz-transform: scale(0);
-      transform-origin: center;
-      -webkit-transform-origin: center;
-      -o-transform-origin: center;
-      -ms-transform-origin: center;
-      -moz-transform-origin: center;
-      transition: transform 0.5s ease-in;
-      -webkit-transition: transform 0.5s ease-in;
-      -o-transition: transform 0.5s ease-in;
-      -ms-transition: transform 0.5s ease-in;
-      -moz-transition: transform 0.5s ease-in;
-      padding-right: .1rem;
-      padding-bottom: .1rem;
-    }
+  #languages #backend:hover::after{
+    content: '';
+    transform: scale(1);
+  }
 
-    #languages #frontend:hover::after{
-      content: '';
-      transform: scale(1);
-      -webkit-transform: scale(1);
-      -o-transform: scale(1);
-      -ms-transform: scale(1);
-      -moz-transform: scale(1);
-    }
+  footer img{
+      max-height:150px;
+      width: auto;
+  }
 
-    #languages #backend::after{
-      content: '';
-      background-color: #00a9a5;
-      position: absolute;
-      top: 0;
-      left:0;
-      height: 100%;
-      width: 100%;
-      z-index: -1;
-      transform: scale(0);
-      -webkit-transform: scale(0);
-      -o-transform: scale(0);
-      -ms-transform: scale(0);
-      -moz-transform: scale(0);
-      transform-origin: center;
-      -webkit-transform-origin: center;
-      -o-transform-origin: center;
-      -ms-transform-origin: center;
-      -moz-transform-origin: center;
-      transition: transform 0.5s ease-in;
-      -webkit-transition: transform 0.5s ease-in;
-      -o-transition: transform 0.5s ease-in;
-      -ms-transition: transform 0.5s ease-in;
-      -moz-transition: transform 0.5s ease-in;
-      padding-right: .1rem;
-      padding-bottom: .1rem;
-    }
+  .github:hover{
+    background-color: purple;  
+    border-radius: 30%;
+  }
 
-    #languages #backend:hover::after{
-      content: '';
-      transform: scale(1);
-    }
+  .linkedin:hover{
+    background-color: blue;
+    border-radius: 30%;
+  }
 
-
-
-    footer img{
-        max-height:150px;
-        width: auto;
-    }
-
-    .github:hover{
-      background-color: purple;  
-      border-radius: 30%;
-    }
-
-    .linkedin:hover{
-      background-color: blue;
-      border-radius: 30%;
-    }
-
-    .mailme:hover{
-      background-color: black;
-      border-radius: 15%;
-    }
-
+  .mailme:hover{
+    background-color: black;
+    border-radius: 15%;
+  }
 }
