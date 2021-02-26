@@ -210,9 +210,6 @@ body{
 
 }
 
-
-
-
 #projects .right p {
     color: #308E9A;
     width: 90%;
@@ -243,7 +240,7 @@ body{
 footer {
     background-color: #308E9A;
     min-height: 10vh;
-    padding-top: 15%;
+    padding-top: 10%;
     clip-path: polygon(0 10vw, 100% 0, 100% 100%, 0 100%);
     -webkit-clip-path: polygon(0 10vw, 100% 0, 100% 100%, 0 100%);
     -moz-clip-path: polygon(0 10vw, 100% 0, 100% 100%, 0 100%);
@@ -274,10 +271,9 @@ footer .copyright{
 }
 
 footer img {
-    width: 25%;
-    margin: 2% 2% 0 2%;
-    max-height: 85px;
-    padding-bottom: 5%;
+    width: 85px;
+    margin: 2%;
+    height: 85px;
 }
 
 footer .mailme {
@@ -323,6 +319,11 @@ footer .mailme {
 
     footer span{
         font-size: 1.5em;
+    }
+
+    footer span a img{
+      width: 94px;
+      height: 85px;
     }
 
     footer .mailme{
@@ -416,10 +417,6 @@ footer .mailme {
         max-height: 95px;
     }
 
-    footer .mailme{
-        height: 95px;
-    }
-
 }
 
 @media (min-width:616px){
@@ -453,10 +450,6 @@ footer .mailme {
     max-height: 110px;
   }
 
-  footer .mailme{
-    height: 110px;
-  }
-
 }
 
 @media (min-width:838px){
@@ -485,10 +478,6 @@ footer .mailme {
     max-height: 120px;
   }
 
-  footer .mailme{
-    height: 120px;
-  }
-
 }
 
 /*fixes look on mobile google chrome*/
@@ -500,9 +489,6 @@ footer .mailme {
   .position{
     -webkit-top:50%;
   }
-
-
-
 }
 
 @media (min-width:1068px){
@@ -512,9 +498,8 @@ footer .mailme {
   }
 
   footer .mailme{
-    height: 130px;
+    width: 120px;
   }
-
 }
 
 @media (min-width:1176px){
@@ -577,12 +562,6 @@ footer .mailme {
         max-height: 150px;
         width: auto;
     }
-
-    footer .mailme {
-        height: 150px;
-    }
-
-
 }
 
 @media (min-width:1394px){
@@ -738,28 +717,18 @@ footer .mailme {
         width: auto;
     }
 
-    footer .mailme{
-        height:150px;
-    }
-
     .github:hover{
-      background-color: purple;
-      padding-bottom: 0;
-      margin-bottom: 5%; /*change the margin bottom to 10% to give it a hover affect*/
+      background-color: purple;  
       border-radius: 30%;
     }
 
     .linkedin:hover{
       background-color: blue;
-      padding-bottom: 0;
-      margin-bottom: 5%;
       border-radius: 30%;
     }
 
     .mailme:hover{
       background-color: black;
-      padding-bottom: 0;
-      margin-bottom: 5%;
       border-radius: 15%;
     }
 
