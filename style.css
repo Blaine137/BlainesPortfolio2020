@@ -486,11 +486,11 @@ footer .mailme {
 
 @media (min-width:1201px) {
   #header {
-    background: url(images/compressedbgvideo4.png); /*old gif is giphy.gif*/
-    -webkit-background: url(images/compressedbgvideo4.png); /*old gif is giphy.gif*/
-    -moz-background: url(images/compressedbgvideo4.png); /*old gif is giphy.gif*/
-    -ms-background: url(images/compressedbgvideo4.png); /*old gif is giphy.gif*/
-    -o-background: url(images/compressedbgvideo4.png); /*old gif is giphy.gif*/
+    background: url(images/compressedbgvideo.png); /*old gif is giphy.gif*/
+    -webkit-background: url(images/compressedbgvideo.png); /*old gif is giphy.gif*/
+    -moz-background: url(images/compressedbgvideo.png); /*old gif is giphy.gif*/
+    -ms-background: url(images/compressedbgvideo.png); /*old gif is giphy.gif*/
+    -o-background: url(images/compressedbgvideo.png); /*old gif is giphy.gif*/
     -webkit-background-size: cover; /*was not here before new gif*/
     -o-background-size: cover; /*was not here before new gif*/
     -ms-background-size: cover; /*was not here before new gif*/
